@@ -3,6 +3,7 @@ package com.denisselitsky.spring.rest.controller;
 import com.denisselitsky.spring.rest.entity.Employee;
 import com.denisselitsky.spring.rest.services.EmployeeService;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,6 +22,12 @@ public class MyRESTController {
     public List<Employee> showAllEmployee() {
         List<Employee> allEmployees = employeeService.getAllEmployees();
         return allEmployees;
+    }
+
+    @GetMapping("/employees/{id}")
+    public Employee showEmployeeById(@PathVariable int id) {
+        Employee employee = employeeService.getEmployee(id);
+        return employee;
     }
 
 }
