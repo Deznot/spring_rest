@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fe0c10b-e95a-49c4-af1b-ca5577163e20" name="Changes" comment="feat: add addNewEmployee post methods">
+    <list default="true" id="4fe0c10b-e95a-49c4-af1b-ca5577163e20" name="Changes" comment="feat: add  updateEmployee put method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/rest/controller/MyRESTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/rest/controller/MyRESTController.java" afterDir="false" />
     </list>
@@ -163,7 +163,7 @@
       <workItem from="1676468297208" duration="374000" />
       <workItem from="1678108655489" duration="771000" />
       <workItem from="1678432413825" duration="6065000" />
-      <workItem from="1678685588719" duration="8216000" />
+      <workItem from="1678685588719" duration="9466000" />
     </task>
     <task id="LOCAL-00001" summary="init: add init and configuration project file">
       <created>1676357511420</created>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678696835397</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: add  updateEmployee put method">
+      <created>1678702838617</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678702838617</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +238,7 @@
     <MESSAGE value="feat: add method getEmployeeByID" />
     <MESSAGE value="feat: add HandlerException methods" />
     <MESSAGE value="feat: add addNewEmployee post methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add addNewEmployee post methods" />
+    <MESSAGE value="feat: add  updateEmployee put method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add  updateEmployee put method" />
   </component>
 </project>
