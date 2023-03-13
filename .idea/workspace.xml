@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fe0c10b-e95a-49c4-af1b-ca5577163e20" name="Changes" comment="feat: add method getEmployeeByID">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/rest/exception_handling/EmployeeGlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/rest/exception_handling/EmployeeIncorrectData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/rest/exception_handling/NoSuchEmployeeException.java" afterDir="false" />
+    <list default="true" id="4fe0c10b-e95a-49c4-af1b-ca5577163e20" name="Changes" comment="feat: add HandlerException methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/rest/controller/MyRESTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/rest/controller/MyRESTController.java" afterDir="false" />
     </list>
@@ -166,7 +163,7 @@
       <workItem from="1676468297208" duration="374000" />
       <workItem from="1678108655489" duration="771000" />
       <workItem from="1678432413825" duration="6065000" />
-      <workItem from="1678685588719" duration="3717000" />
+      <workItem from="1678685588719" duration="5086000" />
     </task>
     <task id="LOCAL-00001" summary="init: add init and configuration project file">
       <created>1676357511420</created>
@@ -196,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678450356001</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add HandlerException methods">
+      <created>1678694907264</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678694907264</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +222,7 @@
     <MESSAGE value="fix: jdbcUrl" />
     <MESSAGE value="feat: add Employee EmployeeDAO EmployeeService" />
     <MESSAGE value="feat: add method getEmployeeByID" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add method getEmployeeByID" />
+    <MESSAGE value="feat: add HandlerException methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add HandlerException methods" />
   </component>
 </project>
